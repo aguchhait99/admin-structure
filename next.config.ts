@@ -22,6 +22,11 @@ const nextConfig: NextConfig = {
         destination: '/dashboard/default',
         permanent: false,
       },
+      {
+        source: '/',
+        destination: '/auth/login',
+        permanent: false,
+      },
     ];
   },
   async rewrites() {
