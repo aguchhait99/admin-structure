@@ -1,10 +1,5 @@
 {
     "framework": "nextjs",
     "buildCommand": "rm -rf .next && npm run build",
-    "installCommand": "npm install",
-    "functions": {
-        "src/proxy.ts": {
-            "runtime": "edge"
-        }
-    }
+    "installCommand": "npm install"
 }
